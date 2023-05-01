@@ -1,0 +1,18 @@
+body{
+    background-image: url(./image/background_image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+}
+.box
+{
+ margin-right: auto;
+ margin-left: auto;
+ height: 420px;
+ width: 250px;
+ padding-left: 50px;
+ padding-right: 50px;
+ padding-top: 20px;
+ background-color: rgb(65, 128, 179);
+}
