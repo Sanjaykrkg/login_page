@@ -3,52 +3,27 @@
         <title>Sign Up</title>
         <link rel="icon" href="./image/icon.png">
         <link rel="stylesheet" href="style.css">
-        <style>
-            body
-            {
-                background-color: rgb(0, 0, 0);
-            }
-            h1{
-                text-align: center;
-            }
-            
-        </style>
     </head>
     <body>
         <div class="box">
-            <div class="content">
-                <h2>SIGN UP</h2>
-                <form onsubmit="myfunc(event)" >
-                    <div>
-                        <lable>User_name</lable><br>
-                        <input type="text" id="name" required/>
-                        <br><br>
-                    </div>
-                    <div>
-                        <lable>Email-id</lable><br>
-                        <input type="email" id="email_id" required/>
-                        <br><br>
-                    </div>
-                    <div>
-                        <lable>Mobile no</lable><br>
-                        <input type="number" id="phone_ number" required/>
-                        <br><br>
-                    </div>
-                    <div>
-                        <lable>Password</lable><br>
-                        <input type="text" required/><br>  <br>                
-                    </div>
-                    <div>                        
-                        <input type="radio" name="gender">
-                        <label>Male</label>
-                        <input type="radio" name="gender">
-                        <lable>Female</lable><br><br>
-                    </div>
-                    <div >
-                        <input type="button" style="background-color:rgb(221, 115, 16);color:white;width:150px;height:40px;" value="Register">
-                    </div>
-                </form>
-            </div>      
-        </div>
+            <h2>SIGN UP</h2>                
+            <lable for="name">User_name</lable><br>
+            <input type="text" id="name" name="name">
+            <br><br>
+            <lable for="email">Email-id</lable><br>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <lable for="phone_number">Mobile no</lable><br>
+            <input type="number" id="phone_number" name="phone_number">
+            <br><br>
+            <lable for="pass">Password</lable><br>
+            <input type="password" id="pass" name="pass"><br>  <br>                
+            <input type="radio" id="Gender" name="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="Gender" name="female" value="female">
+            <lable for="female">Female</lable><br><br>
+            <button type="submit" style="background-color: green;  width: 100px; height: 35px;" id="login" >Register</button>               
+        </div> 
+        <script src="./javascript.js"></script>     
     </body>
 </html>
